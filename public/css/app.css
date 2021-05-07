@@ -41,6 +41,7 @@ li {
 
 main {
   background-image: url("../images/background.jpg");
+  background-position: left;
 }
 
 .product-section {
@@ -50,7 +51,7 @@ main {
 .product-section h2 {
   padding: 10px;
   text-transform: uppercase;
-  color: #2F568E;
+  color: #133b74;
   font-weight: 400;
 }
 
