@@ -1,0 +1,17 @@
+// nav
+.main-menu{
+    ul{
+        display:flex;
+        justify-content: center;
+        li{
+            padding:10px 10px;
+            a{
+                font-size:$text-lg;
+                color:$black;
+            }
+            &:hover{
+                background-color: $main-color;
+            }
+        }
+    }
+}
