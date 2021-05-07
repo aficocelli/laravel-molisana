@@ -62,5 +62,9 @@
             {{-- /section pasta corta --}}
         </main>
         {{-- /main --}}
+
+        {{-- footer --}}
+        @include('parts.footer')
+        {{-- /footer --}}
     </body>
 </html>

@@ -1,0 +1,25 @@
+// footer
+
+footer{
+    .footer-section{
+        width:$container-l;
+        display:flex;
+        margin: 0 auto;
+        .foot-box{
+            height:100px;
+            width:calc((100% / 3) - 10px);
+            margin: 10px 10px;
+            
+        }
+    }
+    
+    
+}
+
+.foot-box{
+    li{
+        a{
+            color:$text-grey;
+        }
+    }
+}

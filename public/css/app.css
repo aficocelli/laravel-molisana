@@ -16,11 +16,11 @@ li {
   list-style-type: none;
 }
 
-.logo {
+header .logo {
   width: 200px;
   margin: 40px auto;
 }
-.logo img {
+header .logo img {
   width: 100%;
 }
 
@@ -65,4 +65,19 @@ main {
 }
 .container .box img {
   width: 100%;
+}
+
+footer .footer-section {
+  width: 1200px;
+  display: flex;
+  margin: 0 auto;
+}
+footer .footer-section .foot-box {
+  height: 100px;
+  width: calc((100% / 3) - 10px);
+  margin: 10px 10px;
+}
+
+.foot-box li a {
+  color: #BCC0C8;
 }
