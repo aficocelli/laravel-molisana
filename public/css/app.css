@@ -92,12 +92,12 @@ footer {
 footer .footer-section {
   width: 1200px;
   display: flex;
-  flex-wrap: wrap;
   margin: 0 auto;
 }
 @media screen and (max-width: 1200px) {
   footer .footer-section {
     width: 100%;
+    flex-wrap: wrap;
   }
 }
 footer .footer-section .foot-box {
