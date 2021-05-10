@@ -8,7 +8,7 @@
         <div class="container">
             @foreach ($lunga as $pasta)
             <div class="box">
-                <img src="{{$pasta['src']}}" alt="">
+               <a href="{{route('prodotto', ['id' => $pasta['id']])}}"><img src="{{$pasta['src']}}" alt=""></a>
             </div>
             @endforeach
         </div>
@@ -21,7 +21,7 @@
         <div class="container">
             @foreach ($corta as $pasta)
             <div class="box">
-                <img src="{{$pasta['src']}}" alt="">
+                <a href="{{route('prodotto', ['id' => $pasta['id']])}}"><img src="{{$pasta['src']}}" alt=""></a>
             </div>
             @endforeach
         </div>
@@ -34,7 +34,7 @@
         <div class="container">
             @foreach ($cortissima as $pasta)
             <div class="box">
-                <img src="{{$pasta['src']}}" alt="">
+                <a href="{{route('prodotto', ['id' => $pasta['id']])}}"><img src="{{$pasta['src']}}" alt=""></a>
             </div>
             @endforeach
         </div>
