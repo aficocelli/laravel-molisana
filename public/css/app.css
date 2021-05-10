@@ -67,17 +67,32 @@ main {
   width: 100%;
 }
 
+footer {
+  padding: 80px 0;
+  background-image: url("../images/footer-background.jpg");
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  background-size: contain;
+}
 footer .footer-section {
   width: 1200px;
   display: flex;
   margin: 0 auto;
 }
 footer .footer-section .foot-box {
-  height: 100px;
   width: calc((100% / 3) - 10px);
   margin: 10px 10px;
 }
 
 .foot-box li a {
   color: #BCC0C8;
+}
+
+.footer-list li {
+  line-height: 28px;
+}
+.footer-list li:first-of-type {
+  font-size: 24px;
+  color: #707a90;
+  margin: 10px 0;
 }

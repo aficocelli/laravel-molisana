@@ -1,19 +1,21 @@
 // footer
 
 footer{
+    padding: 80px 0;
+    background-image: url('../images/footer-background.jpg');
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-size: contain;
     .footer-section{
         width:$container-l;
         display:flex;
         margin: 0 auto;
         .foot-box{
-            height:100px;
             width:calc((100% / 3) - 10px);
             margin: 10px 10px;
             
         }
-    }
-    
-    
+    }   
 }
 
 .foot-box{
@@ -21,5 +23,13 @@ footer{
         a{
             color:$text-grey;
         }
+    }
+}
+.footer-list li{
+    line-height:28px;
+    &:first-of-type{
+        font-size:$text-lg;
+        color:#707a90;
+        margin: 10px 0;
     }
 }
