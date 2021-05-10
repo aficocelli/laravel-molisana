@@ -98,6 +98,7 @@ main .box {
 .product-box p {
   background-color: #B7DAE5;
   color: #133b74;
+  padding: 0 50px;
 }
 
 footer {
