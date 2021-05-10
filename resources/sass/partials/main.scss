@@ -5,6 +5,9 @@ main{
 .product-section{
     width: $container-l;
     margin:0 auto;
+    @media screen and (max-width:1200px){
+        width:100%;
+    }
     h2{
         padding:10px;
         text-transform: uppercase;
@@ -19,6 +22,12 @@ main{
     .box{
         width:calc((100% / 3) - 20px);
         margin: 10px 10px;
+        @media screen and (max-width:1200px){
+            width:calc((100% / 2 ) - 20px);
+        }
+        @media screen and (max-width:450px){
+            width:calc(100% - 20px);
+        }
         img{
             width:100%;
         }

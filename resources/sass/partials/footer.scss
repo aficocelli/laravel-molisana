@@ -9,10 +9,17 @@ footer{
     .footer-section{
         width:$container-l;
         display:flex;
+        flex-wrap:wrap;
         margin: 0 auto;
+        @media screen and (max-width:1200px){
+            width:100%;
+        }
         .foot-box{
             width:calc((100% / 3) - 10px);
             margin: 10px 10px;
+            @media screen and (max-width:1200px){
+                width:calc(100%  - 10px);
+            }
             
         }
     }   
